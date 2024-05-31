@@ -1,0 +1,75 @@
+@import url(
+    https://fonts.googleapis.com/css?family=Roboto&display=swap
+);
+body{
+    font-family: Roboto, serif;
+}
+header{
+    background-image: linear-gradient(to right, #4bb868, #34a853);
+    height: 130px;
+}
+
+.header-logo{
+    display: block;
+    height: 50px;
+}
+
+.left-side-bar{
+    display: inline-block;
+    background-color: red;
+}
+
+.center-side-bar{
+    display: block;
+    height: 70px;
+}
+
+.center-side-bar img{
+    width: 250px;
+}
+
+.logo-img {
+
+    display: inline-block;
+}
+
+.search-header{
+    display: inline-block;
+    background-color: red;
+}
+
+.about-heaader{
+    display: inline-block;
+    background-color: gray;
+}
+
+.right-side-bar{
+    display: inline-block;
+    background-color: green;
+}
+
+/*  
+@media (max-width: 1300px) {
+    
+    .left-sideb1{
+        display: none;
+    }
+    .left-sideb2{
+        display: none;
+    }
+    .right-sideb1{
+        display: none;
+    }
+    .right-sideb2{
+        display: none;
+    }
+    .form-control{
+        display: none;
+    }
+    .navbar-up{
+        display: none;
+    }
+    .club-logo{
+        display: none;
+    }
+ }*/
